@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Boz Trio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./lib/boz.css">
+  </head>
+  <body style="padding-top:50px">
+    <div class="container">
+      <!-- FULL SIZE STATIC NAVBAR -->
+      <nav class="navbar navbar-fixed-top navbar-dark bg-inverse hidden-sm-down" style="height:50px">
+        <ul class="nav navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" data-i18n="index.nav.home" href="#!" onclick="showHome();"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-i18n="index.nav.gruppo" href="#!" onclick="showGruppo();"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-i18n="index.nav.foto" href="#!" onclick="showFoto();"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-i18n="index.nav.musica" href="#!" onclick="showMusica();"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-i18n="index.nav.concerti" href="#!" onclick="showConcerti();"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-i18n="index.nav.contatti" href="#!" onclick="showContatti();"></a>
+          </li>
+          <a id=btnIt" href="#!" class="nav-item float-xs-right navbar-text" onclick="toIt()">
+            <img src="./img/lib/it-flag.png" alt="IT" height=25px>
+          </a>
+          <a id=btnEn" href="#!" class="nav-item float-xs-right navbar-text" onclick="toEn()">
+            <img src="./img/lib/en-flag.png" alt="EN" height=25px>
+          </a>
+          <a class="nav-item float-xs-right navbar-text" target="_blank" href="https://www.youtube.com/channel/UCCBcTXKtsiYmgNSdAGGwPzg">
+            <img src="./img/lib/yt_logo.png" alt="Youtube Page"  height="25px">
+          </a>
+          <a class="nav-item float-xs-right navbar-text" target="_blank" href="https://www.facebook.com/boztrio">
+            <img src="./img/lib/fb_logo_300x300.png" alt="Facebook Page"  height=25px>
+          </a>
+        </ul>
+      </nav>
+
+      <!-- MOBILE STACKED COLLAPSIBLE -->
+      <nav class="navbar navbar-fixed-top navbar-dark bg-inverse hidden-md-up">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar" aria-controls="exCollapsingNavbar" aria-expanded="false" aria-label="Toggle navigation"></button>
+        <div class="collapse bg-inverse p-1" id="exCollapsingNavbar">
+          <ul class="nav nav-stacked">
+            <li class="nav-item active">
+              <a class="drop-down-nav" data-i18n="index.nav.home" href="#!" onclick="showHome();"></a>
+            </li>
+            <li class="nav-item">
+              <a class="drop-down-nav" data-i18n="index.nav.gruppo" href="#!" onclick="showGruppo();"></a>
+            </li>
+            <li class="nav-item">
+              <a class="drop-down-nav" data-i18n="index.nav.foto" href="#!" onclick="showFoto();"></a>
+            </li>
+            <li class="nav-item">
+              <a class="drop-down-nav" data-i18n="index.nav.concerti" href="#!" onclick="showConcerti();"></a>
+            </li>
+            <li class="nav-item">
+              <a class="drop-down-nav" data-i18n="index.nav.contatti" href="#!" onclick="showContatti();"></a>
+            </li>
+            <a id=btnIt" href="#!" class="nav-item" onclick="toIt()">
+              <img src="./img/lib/it-flag.png" alt="IT" height=25px>
+            </a>
+            <a id=btnEn" href="#!" class="nav-item" onclick="toEn()">
+              <img src="./img/lib/en-flag.png" alt="EN" height=25px>
+            </a>
+            <a class="nav-item" target="_blank" href="https://www.youtube.com/channel/UCCBcTXKtsiYmgNSdAGGwPzg">
+              <img src="./img/lib/yt_logo.png" alt="Youtube Page"  height="25px">
+            </a>
+            <a class="nav-item" target="_blank" href="https://www.facebook.com/boztrio">
+              <img src="./img/lib/fb_logo_300x300.png" alt="Facebook Page"  height=25px>
+            </a>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="row">
+        <div class="col-md-4 col-sm-3"></div>
+        <div class="col-md-4 col-sm-6 text-xs-center">
+          <img src="./img/lib/logo_s.png" alt="Boz Trio" width="70%">
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-1"></div>
+      <div id="main_content" class="col-md-6 col-sm-10" style="padding:1em">
+      </div>
+      <div class="col-md-3 col-sm-1"></div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="./lib/i18next.min.js"></script>    
+    <script src="./lib/i18nextXHRBackend.min.js"></script>    
+    <script src="./lib/jquery-i18next.min.js"></script>    
+    <script src="./lib/boz.js"></script>
+  </body>
+</html>

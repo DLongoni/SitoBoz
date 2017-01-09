@@ -1,0 +1,14 @@
+a.drop-down-nav:active {
+  border: 1px dotted white;
+  padding:3px;
+  border-radius:3px;
+}
+
+a.drop-down-nav:hover {
+  text-decoration: underline;
+  color:white;
+}
+
+a.drop-down-nav {
+  color:white;
+}

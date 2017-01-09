@@ -1,0 +1,40 @@
+{
+  "index":{
+    "nav":{
+      "home":"Home",
+      "gruppo":"The Band",
+      "foto":"Pics",
+      "concerti":"Live Gigs",
+      "contatti":"Contacts",
+      "musica":"Music"
+    }
+  },
+  "home": {
+    "descr_breve": "Klezmer poetry and Balkan dances. Two musical traditions brought to you in the same fascinating show."
+  },
+  "concerti": {
+    "main": "You can find our upcoming concerts on Facebook!",
+    "past_head": "Past Gigs",
+    "past_sub": "knowingly not up to date"
+  },
+  "contatti":{
+    "scarica_link":"Download our press kit: ",
+    "scarica_descr":"pictures, logos, info, and rider!",
+    "file":"./BozTrioPressEn.zip"
+  },
+  "gruppo":{
+    "titolo":"The ensemble",
+    "ben":"saxophone and clarinet",
+    "luca":"trumpet",
+    "albe":"double bass",
+    "dave":"guitar",
+    "pede":"accordion",
+    "descr":"The Boz Trio's crew is made up of five (or more!) musicians that will take you to distant shores, sailing across the deep ocean of the traditional music that takes its roots into exotic and faraway lands. During our exhibition you'll seat around a campfire with the cossacks in the russian steppe, you'll be moved by the jewish music's poetry, you'll dance restlessly to the catchy balkan tunes, and you'll be fascinated by the wierd greek rhythms. In just a few hours you are going to travel miles and miles, without pollution and with no need for travel documents."
+  },
+  "musica":{
+    "titolo":"Our Music",
+    "ascolta":"Listen",
+    "discografia":"Discography",
+    "scarica":"download mp3"
+  }
+}

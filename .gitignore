@@ -1,0 +1,14 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!*.html
+!*.js
+!*.css
+!*.json
+
+# ...even if they are in subdirectories
+!*/
+
+fancybox/

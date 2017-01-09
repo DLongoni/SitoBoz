@@ -1,0 +1,40 @@
+{
+  "index":{
+    "nav":{
+      "home":"Home",
+      "gruppo":"Il Gruppo",
+      "foto":"Foto",
+      "concerti":"Concerti",
+      "contatti":"Contatti",
+      "musica":"Musica"
+    }
+  },
+  "home": {
+    "descr_breve": "Il Trio che suona in cinque. Spostabili, incastrabili, quel giusto amplificabili, e di pezzi molti: tristi, allegri, ballabili, così che poi ci si diverte senza badare che il primo era un tradizionale greco, il secondo un klezmer, il terzo uno strano ritmo balcanico. "
+  },
+  "concerti": {
+    "main": "La lista dei nostri concerti si trova su Facebook!",
+    "past_head": "Concerti Passati",
+    "past_sub": "volutamente non aggiornati"
+  },
+  "contatti":{
+    "scarica_link":"Scarica il press kit: ",
+    "scarica_descr":"immagini, loghi, testi, scheda tecnica, e curriculum!",
+    "file":"./BozTrioPressIt.zip"
+  },
+  "gruppo":{
+    "titolo":"I cinque del Boz Trio",
+    "ben":"sax e clarinetto",
+    "luca":"tromba",
+    "albe":"contrabbasso",
+    "dave":"chitarra",
+    "pede":"fisarmonica",
+    "descr":"Il Boz Trio è un equipaggio di cinque (o più!) musicisti pronti a farvi salpare verso rive lontane, attraverso l'oceano profondo della musica tradizionale di paesi diversi e lontani tra loro. Durante il concerto bivaccherete coi cosacchi nella steppa russa, vi commuoverete con la poesia della musica popolare ebraica, vi scatenerete con i ritmi della musica balcanica, vi appassionerete ai bizzarri ritmi greci percorrendo migliaia di chilometri in un paio d'ore soltanto, senza inquinare e senza bisogno di documenti di viaggio!"
+  },
+  "musica":{
+    "titolo":"La Nostra Musica",
+    "ascolta":"Ascolta",
+    "discografia":"Discografia",
+    "scarica":"scarica mp3"
+  }
+}
