@@ -1,6 +1,11 @@
-<div class="col-md-1">
-</div>
-<div class="col-md-10 col-sm-12 text-xs-left">
+<link rel="stylesheet" href="./fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="text/javascript" src="./fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+<script>
+  $( function() {
+    $(".fancybox").fancybox();
+  } );
+</script>
+<div class="text-xs-left">
   <strong><p class="h4 text-xs-center" data-i18n="musica.ascolta"></p></strong>
   <em><h6 class="text-xs-center">Der Heyser Bulgar</h6></em>
   <div class="text-xs-center">
@@ -11,8 +16,15 @@
     <audio src="./audio/galitzyaner.mp3" type="audio/mpeg" controls></audio>
   </div>
   <hr />
-  <strong><p class="h4 text-xs-center" data-i18n="musica.discografia"></p></strong>
-  <p class="h6">2017 - <strong>Quinto Quarto</strong></p>
-  <p class="h6">2015 - <strong>Boz Trip</strong> - <a data-i18n="musica.scarica" href="./archives/BozTripMp3.zip"></a></p>
-  <p class="h6">2012 - <strong>Zob!</strong> - <a data-i18n="musica.scarica" href="./archives/ZobMp3.zip"></a></p>
+  <strong><p class="h4 text-xs-center pb-1" data-i18n="musica.discografia"></p></strong>
+  <!-- <p class="h6">2017 &#45; <strong>Quinto Quarto</strong></p> -->
+  <div class="text-xs-center">
+    <p class="h6">2015 - <strong>Boz Trip</strong> - <a data-i18n="musica.scarica" href="./archives/BozTripMp3.zip"></a></p>
+    <a class="fancybox" rel="group" href="./img/lib/boztrip_front.jpg"><img class="img-fluid p-0 m-0 pull-left" src="./img/lib/boztrip_front.jpg" alt="Boz Trip Front" width="48%"/></a>
+    <a class="fancybox" rel="group" href="./img/lib/boztrip_back.jpg"><img class="img-fluid p-0 m-0 pull-left" src="./img/lib/boztrip_back.jpg" alt="Boz Trip Back" width="48%"/></a>
+    <br>
+    <p class="h6">2012 - <strong>Zob!</strong> - <a data-i18n="musica.scarica" href="./archives/ZobMp3.zip"></a></p>
+    <a class="fancybox" rel="group" href="./img/lib/zob_front.jpg"><img class="img-fluid p-0 m-0 pull-left" src="./img/lib/zob_front.jpg" alt="Zob! Front" width="48%"/></a>
+    <a class="fancybox" rel="group" href="./img/lib/zob_back.jpg"><img class="img-fluid p-0 m-0 pull-left" src="./img/lib/zob_back.jpg" alt="Zob! Bac" width="48%"/></a>
+  </div>
 </div>
