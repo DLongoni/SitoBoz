@@ -1,3 +1,34 @@
+a.boztrip-active{
+  width:5em;
+  height:3em;
+  vertical-align:middle;
+  background-color:#E3BC23;
+  color:black;
+  border-color:#E3BC23;
+}
+
+a.boztrip-active:hover{
+  color:white;
+  background-color:#E3BC23;
+  border-color:#E3BC23;
+}
+
+a.boztrip-unactive{
+  width:5em;
+  height:3em;
+  vertical-align:middle;
+  padding:auto;
+  background-color:white;
+  color:#E3BC23;
+  border-color:#E3BC23;
+}
+
+a.boztrip-unactive:hover{
+  color:white;
+  background-color:#E3BC23;
+  border-color:#E3BC23;
+}
+
 a.drop-down-nav:active {
   border: 1px dotted white;
   padding:3px;
@@ -11,4 +42,8 @@ a.drop-down-nav:hover {
 
 a.drop-down-nav {
   color:white;
+}
+
+a.href-less {
+  cursor:pointer;
 }
