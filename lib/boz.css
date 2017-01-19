@@ -1,9 +1,9 @@
 a.boztrip-active{
   width:5em;
   height:3em;
-  vertical-align:middle;
+  font-weight: bold;
   background-color:#E3BC23;
-  color:black;
+  color:white;
   border-color:#E3BC23;
 }
 
@@ -16,8 +16,7 @@ a.boztrip-active:hover{
 a.boztrip-unactive{
   width:5em;
   height:3em;
-  vertical-align:middle;
-  padding:auto;
+  font-weight: bold;
   background-color:white;
   color:#E3BC23;
   border-color:#E3BC23;
