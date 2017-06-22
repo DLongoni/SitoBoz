@@ -46,3 +46,8 @@ a.drop-down-nav {
 a.href-less {
   cursor:pointer;
 }
+
+img.boztrip{
+  max-height:30em;
+  max-width:100%;
+}
