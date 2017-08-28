@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Boz Trio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
-    <link rel="stylesheet" href="./lib/boz.css">
+    <link rel="stylesheet" href="./lib/boz.css?v=14">
   </head>
   <body style="padding-top:50px">
     <div class="container">
@@ -73,7 +73,7 @@
               <a class="drop-down-nav" data-i18n="index.nav.concerti" href="#/concerti"></a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle href-less" id="boztripMenu" data-i18n="index.nav.blog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+              <a class="nav-link dropdown-toggle text-white href-less" id="boztripMenu" data-i18n="index.nav.blog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
               <div class="dropdown-menu" aria-labelledby="boztripMenu">
                 <a class="dropdown-item" href="#/boztrip/2014/main">2014</a>
                 <a class="dropdown-item" href="#/boztrip/2015/main">2015</a>
@@ -107,10 +107,15 @@
         </div>
       </div>
 
-      <div id="left-bar" class="col-md-3 col-sm-1 text-xs-right"></div>
-      <div id="main_content" class="col-md-6 col-sm-10 mt-1 mb-1">
+      <div class="row hidden-sm-up">
+        <div id="mobile-boz" class="boztrip-menu col-md-0 col-xs-12"></div>
       </div>
-      <div class="col-md-3 col-sm-1"></div>
+
+      <div class="row">
+        <div id="left-bar" class="boztrip-menu col-md-3 col-xs-0 hidden-md-down" align="right"></div>
+        <div id="main_content" class="col-md-6 col-xs-12 mt-1 mb-1"> </div>
+        <div id="border-right" class="col-md-3 col-xs-0"></div>
+      </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>

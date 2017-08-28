@@ -1,31 +1,69 @@
-a.boztrip-active{
-  width:5em;
-  height:3em;
-  font-weight: bold;
-  background-color:#E3BC23;
-  color:white;
-  border-color:#E3BC23;
+@media(min-width: 768px){
+  a.boztrip-active{
+    width:5em;
+    height:3em;
+    font-weight: bold;
+    background-color:#E3BC23;
+    color:white;
+    border-color:#E3BC23;
+    display:block;
+  }
+
+  a.boztrip-active:hover{
+    color:white;
+    background-color:#E3BC23;
+    border-color:#E3BC23;
+    display:block;
+  }
+
+  a.boztrip-unactive{
+    width:5em;
+    height:3em;
+    font-weight: bold;
+    background-color:white;
+    color:#E3BC23;
+    border-color:#E3BC23;
+    display:block;
+  }
+
+  a.boztrip-unactive:hover{
+    color:white;
+    background-color:#E3BC23;
+    border-color:#E3BC23;
+    display:block;
+  }
 }
 
-a.boztrip-active:hover{
-  color:white;
-  background-color:#E3BC23;
-  border-color:#E3BC23;
-}
+@media(max-width: 768px){
+  a.boztrip-active{
+    font-weight: bold;
+    background-color:#E3BC23;
+    color:white;
+    border-color:#E3BC23;
+    padding:2px;
+  }
 
-a.boztrip-unactive{
-  width:5em;
-  height:3em;
-  font-weight: bold;
-  background-color:white;
-  color:#E3BC23;
-  border-color:#E3BC23;
-}
+  a.boztrip-active:hover{
+    color:white;
+    background-color:#E3BC23;
+    border-color:#E3BC23;
+    padding:2px;
+  }
 
-a.boztrip-unactive:hover{
-  color:white;
-  background-color:#E3BC23;
-  border-color:#E3BC23;
+  a.boztrip-unactive{
+    font-weight: bold;
+    background-color:white;
+    color:#E3BC23;
+    border-color:#E3BC23;
+    padding:2px;
+  }
+
+  a.boztrip-unactive:hover{
+    color:white;
+    background-color:#E3BC23;
+    border-color:#E3BC23;
+    padding:2px;
+  }
 }
 
 a.drop-down-nav:active {
